@@ -1,0 +1,12 @@
+name = IFES Legacy Migration
+description = Custom migration for legacy data
+core = 7.x
+package = Migration
+
+dependencies[] = migrate
+
+files[] = includes/base.inc
+files[] = includes/blogs.inc
+files[] = includes/events.inc
+files[] = includes/prayer.inc
+files[] = includes/users.inc
