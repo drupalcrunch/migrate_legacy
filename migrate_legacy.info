@@ -8,5 +8,4 @@ dependencies[] = migrate
 files[] = includes/base.inc
 files[] = includes/blogs.inc
 files[] = includes/events.inc
-files[] = includes/prayer.inc
 files[] = includes/users.inc
