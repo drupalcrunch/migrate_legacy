@@ -37,13 +37,6 @@ function migrate_legacy_migrate_api() {
                     'LegacyUsers',
                 ),
             ),
-            'LegacyPrayer' => array(
-                'class_name' => 'LegacyPrayerMigration',
-                'group_name' => 'ifes',
-                'dependencies' => array(
-                    'LegacyUsers',
-                ),
-            ),
         ),
     );
 }
